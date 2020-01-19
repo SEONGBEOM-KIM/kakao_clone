@@ -1,0 +1,42 @@
+.airpods {
+  background-color: white;
+  padding: 38px 30px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+}
+
+.airpods .airpods__image {
+  display: block;
+  margin: 0 auto 60px auto;
+}
+
+.airpods h1 {
+  color: #2f2f33;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.airpods .airpods__info {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: cneter;
+}
+
+.airpods .airpods__desc {
+  color: #b3b7bd;
+  font-size: 20px;
+}
+
+.airpods .airpods__comment-number {
+  color: #b3b7bd;
+}
+
+.airpods i {
+  color: #febd51;
+}
+
+i:nth-child(5) {
+  color: #d6dfe3;
+}

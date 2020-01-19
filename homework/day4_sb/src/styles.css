@@ -1,0 +1,103 @@
+body,
+html {
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+header {
+  height: 50%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #76c4c6;
+}
+section {
+  height: 50%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1eac9c;
+}
+.rotation {
+  width: 10%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: 1s RotateCircle infinite ease-in-out;
+}
+.box {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+.left {
+  margin-right: 10px;
+}
+.right {
+  margin-left: 10px;
+}
+@keyframes RotateCircle {
+  0% {
+    transform: none;
+  }
+  70% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+.scale {
+  width: 5%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.long-box {
+  width: 10px;
+  height: 50px;
+  background-color: white;
+}
+@keyframes ScaleSquare {
+  0% {
+    transform: none;
+  }
+  5% {
+    transform: scale(1, 2.2);
+  }
+  10% {
+    transform: none;
+  }
+  100% {
+    transform: none;
+  }
+}
+.one {
+  animation: 2.5s ScaleSquare infinite ease-in-out;
+}
+.two {
+  animation: 2.5s ScaleSquare infinite ease-in-out 0.1s;
+}
+.three {
+  animation: 2.5s ScaleSquare infinite ease-in-out 0.2s;
+}
+.four {
+  animation: 2.5s ScaleSquare infinite ease-in-out 0.3s;
+}
+.five {
+  animation: 2.5s ScaleSquare infinite ease-in-out 0.4s;
+}
