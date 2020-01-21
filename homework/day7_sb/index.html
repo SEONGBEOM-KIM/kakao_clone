@@ -7,30 +7,41 @@
   </head>
 
   <body>
-    <main class="login">
-      <h1 class="login__title">Sign in</h1>
-      <input type="email" placeholder="email" class="login__email" />
-      <input type="password" placeholder="password" class="login__password" />
-      <span class="login__forget">Forgot Password?</span>
-      <div class="login__checkbox">
-        <input type="checkbox" checked class="login__box" />
-        <span class="login__remember">Remember Me</span>
+    <div class="phone">
+      <div class="screen">
+        <div class="header">
+          <h1 class="header__title">Sign in</h1>
+        </div>
+        <div class="main">
+          <input type="email" placeholder="email" class="main__email" />
+          <input
+            type="password"
+            placeholder="password"
+            class="main__password"
+          />
+          <a href="#" class="main__forgot">Forgot Password?</a>
+          <div class="main__remember">
+            <input id="remember" type="checkbox" class="main__checkbox" />
+            <label for="remember" class="main__label">Remember Me</label>
+          </div>
+          <button class="main__button btn">Sign in</button>
+        </div>
+        <div class="footer">
+          <h2 class="footer__title">OR</h2>
+          <div class="footer__button">
+            <a href="#" class="footer__button-link btn">Facebook</a>
+            <a href="#" class="footer__button-link btn">Twitter</a>
+          </div>
+          <div class="footer__signup">
+            Need an account?<a href="#" class="footer__signup-link">Sign up</a>
+          </div>
+          <div class="footer__retrive">
+            Forgot your password?<a href="" class="footer__retrive-link"
+              >Retrive</a
+            >
+          </div>
+        </div>
       </div>
-
-      <input type="button" value="Sign in" class="login__button signin" />
-      <span class="login__or">OR</span>
-      <div class="login__button-group">
-        <input type="button" value="Facebook" class="login__button facebook" />
-        <input type="button" value="Twitter" class="login__button twitter" />
-      </div>
-      <div class="login__more">
-        <span class="login__question">need an account?</span>
-        <span class="login__answer">Sign up</span>
-      </div>
-      <div class="login__more">
-        <span class="login__question">forgot your password?</span>
-        <span class="login__answer">Retrive</span>
-      </div>
-    </main>
+    </div>
   </body>
 </html>
