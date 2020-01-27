@@ -11,87 +11,68 @@
   </head>
 
   <body>
-    <div class="status-bar">
-      <div class="status-bar__column">9:41</div>
-      <div class="status-bar__column">
-        <i class="fas fa-signal"></i>
-        <i class="fas fa-wifi"></i>
-        <i class="fas fa-battery-full"></i>
-      </div>
-    </div>
-    <header class="header">
-      <div class="header__icon">
-        <div class="header__icon-column">
-          <i class="fas fa-arrow-left"></i>
+    <div class="screen">
+      <div class="status-bar">
+        <div class="status-bar__column">9:24</div>
+        <div class="status-bar__column">
+          <i class="fas fa-signal"></i>
+          <i class="fas fa-wifi"></i>
+          <i class="fas fa-battery-full"></i>
         </div>
-        <div class="header__icon-column">
+      </div>
+      <header class="header">
+        <div class="header__icon">
+          <i class="fas fa-arrow-left"></i>
           <i class="fas fa-share-alt"></i>
         </div>
-      </div>
-      <div class="header__preview">
-        <div class="header__preview-img img-first"></div>
-        <div class="header__preview-img img-second"></div>
-        <div class="header__preview-img img-third"></div>
-        <div class="header__preview-img img-fourth">+4</div>
-      </div>
-      <div class="header__hash">
-        <div class="header__hash-tag">TOWN</div>
-        <div class="header__hash-tag">HISTORICAL</div>
-        <div class="header__hash-tag">FOR KIDS</div>
-      </div>
-    </header>
-    <main class="main">
-      <div class="main__title">
-        <div class="main__title-column title-text">City of Lights</div>
-        <div class="main__title-column title-icon">
-          <i class="fas fa-heart"></i>
+        <ul class="header__preview">
+          <li class="header__preview-img"></li>
+          <li class="header__preview-img"></li>
+          <li class="header__preview-img"></li>
+          <li class="header__preview-img">+4</li>
+        </ul>
+        <a href="#" class="header__hash">TOWN</a>
+        <a href="#" class="header__hash">HISTOLICAL</a>
+        <a href="#" class="header__hash">FOR KIDS</a>
+      </header>
+      <main class="main">
+        <header class="main__header">
+          <h1 class="main__title">City of Lights</h1>
+          <div class="main__title-icon"><i class="fas fa-heart"></i></div>
+        </header>
+        <h2 class="main__address">
+          <i class="fas fa-map-marker-alt"></i>Avotu iela 104-B
+        </h2>
+        <div class="main__info">
+          <ul class="main__score">
+            <li class="main__score-icon"><i class="fas fa-star"></i></li>
+            <li class="main__score-icon"><i class="fas fa-star"></i></li>
+            <li class="main__score-icon"><i class="fas fa-star"></i></li>
+            <li class="main__score-icon"><i class="fas fa-star"></i></li>
+            <li class="main__score-icon"><i class="fas fa-star-half"></i></li>
+            <li class="main__score-icon">4.75</li>
+          </ul>
+          <div class="main__distance">325m</div>
         </div>
-      </div>
-      <div class="main__location">
-        <i class="fas fa-map-marker-alt"></i>
-        <span class="main__location-text">Avotu iela 104-B</span>
-      </div>
-      <div class="main__info">
-        <div class="main__info-column score">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
-          <span class="score__points">4.75</span>
+        <div class="main__overview">
+          <h2 class="main__overview-title">OVERVIEW</h2>
+          <p class="main__overview-desc">
+            Latvia, officially the Republic of Latvia, is a sovereign state in
+            the Baltic region of Northern Europe. Since its independence, Latvia
+            has been referred to as one of the Baltic states.
+          </p>
         </div>
-        <div class="main__info-column distance">
-          <span class="distance__number">325m</span>
-        </div>
-      </div>
-      <div class="main__overview-title">OVERVIEW</div>
-      <div class="main__overview-content">
-        Latvia's capital Riga is enriched and inspired every day by its
-        multicultural community. Riga is perhaps the most...
-      </div>
-      <div class="main__overview-readmore">Read More</div>
-    </main>
-    <nav class="navigation">
-      <div class="navigation__center-icon"><i class="fas fa-route"></i></div>
-      <div class="navigation__icon">
-        <div class="navigation__icon-column home">
-          <i class="fas fa-home"></i>
-        </div>
-        <div class="navigation__icon-column earth">
-          <i class="fas fa-globe-americas"></i>
-        </div>
-      </div>
-      <div class="navigation__icon">
-        <div class="navigation__icon-column users">
-          <i class="fas fa-users"></i>
-        </div>
-        <div class="navigation__icon-column cog">
-          <i class="fas fa-cog"></i>
-        </div>
-      </div>
-    </nav>
-    <div class="under-bar">
-      <div class="under-bar__line"></div>
+        <a href="#" class="main__read-more">Read More</a>
+      </main>
     </div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__icon"><i class="fas fa-home"></i></li>
+        <li class="nav__icon"><i class="fas fa-globe-asia"></i></li>
+        <li class="nav__icon"><i class="fas fa-route"></i></li>
+        <li class="nav__icon"><i class="fas fa-users"></i></li>
+        <li class="nav__icon"><i class="fas fa-cog"></i></li>
+      </ul>
+    </nav>
   </body>
 </html>
