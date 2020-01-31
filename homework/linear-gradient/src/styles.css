@@ -1,0 +1,14 @@
+.box {
+  width: 350px;
+  height: 700px;
+  background: linear-gradient(rgba(241, 224, 247, 0.2), rgb(241, 242, 246) 75%),
+    url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Oia,_Santorini_HDR_sunset.jpg/1280px-Oia,_Santorini_HDR_sunset.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* background-image: linear-gradient(
+      rgba(241, 224, 247, 0.2),
+      rgb(241, 242, 246) 75%
+    ),
+    url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Oia,_Santorini_HDR_sunset.jpg/1280px-Oia,_Santorini_HDR_sunset.jpg"); */
